@@ -2,9 +2,7 @@ import React from 'react';
 import githublogo from '../icons/github.svg';
 import emaillogo from '../icons/envelope.svg';
 import resumelogo from '../icons/journal-text.svg';
-import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 import Typical from 'react-typical';
 import './Profile.css'
 import bg from '../assets/lol.png'
