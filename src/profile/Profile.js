@@ -2,7 +2,6 @@ import React from 'react';
 import githublogo from '../icons/github.svg';
 import emaillogo from '../icons/envelope.svg';
 import resumelogo from '../icons/journal-text.svg';
-import 'react-toastify/dist/ReactToastify.css';
 import Typical from 'react-typical';
 import './Profile.css'
 import bg from '../assets/lol.png'
