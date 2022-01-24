@@ -51,13 +51,13 @@ export default function Profile() {
                             ... and this is my story!
                         </div>
                         <a href='https://mail.google.com/mail/?view=cm&fs=1&to=ee.guy.42@gmail.com'>
-                        <img src={emaillogo} alt='emaillogo'/>
+                        <img src={emaillogo} alt='emaillogo'size='100px'/>
                         </a> {" "}
                         <a href='https://github.com/rif42?tab=repositories'>
-                            <img src={githublogo} alt='githublogo'/>
+                            <img src={githublogo} alt='githublogo'size='100px'/>
                         </a> {" "}
                         <a href='https://github.com/rif42?tab=repositories'>
-                            <img src={resumelogo} alt='githublogo'/>
+                            <img src={resumelogo} alt='githublogo' size='100px'/>
                         </a>                        
                     </div>
                 </div>
