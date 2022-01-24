@@ -26,11 +26,18 @@
     left:90vw;
     height:50vw;
     opacity: 75%;
-    animation: goingin 1s ease-out 1s forwards;
+    animation: goingin 3s;
+    animation-direction: normal;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 @keyframes goingin {
+    0%{
+        transform: translateX(0);
+    }
     100%{
-        transform: translateX(-60%) rotate(-30deg);
+        transform: translateX(-60%);
     }
 }

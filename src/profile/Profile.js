@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import Typical from 'react-typical';
 import './Profile.css'
+import bg from '../assets/lol.png'
 
 export default function Profile() {
     return (
@@ -64,7 +65,7 @@ export default function Profile() {
                     </div>
                 </div>
             </div>
-            <img id='bgimage' src='https://cdn.discordapp.com/attachments/922536453731418153/922539097548009532/ducky.png' alt='githublogo'/> 
+            <img id='bgimage' src={bg} alt='githublogo'/> 
         </div>
         
     )
