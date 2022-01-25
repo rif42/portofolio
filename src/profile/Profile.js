@@ -9,6 +9,7 @@ import bg from '../assets/lol.png'
 export default function Profile() {
     return (
         <div className='profile-container'>
+            <img id='bgimage' src={bg} alt='githublogo'/>
             <div className='profile-parent'>
                 <div className='profile-details'>
                     <div className='cols'>
@@ -50,20 +51,21 @@ export default function Profile() {
                         <div className='profile-details-etc'>
                             ... and this is my story!
                         </div>
-                        <a href='https://mail.google.com/mail/?view=cm&fs=1&to=ee.guy.42@gmail.com'>
-                        <img src={emaillogo} alt='emaillogo'size='100px'/>
-                        </a> {" "}
-                        <a href='https://github.com/rif42?tab=repositories'>
-                            <img src={githublogo} alt='githublogo'size='100px'/>
-                        </a> {" "}
-                        <a href='https://github.com/rif42?tab=repositories'>
-                            <img src={resumelogo} alt='githublogo' size='100px'/>
-                        </a>                        
+                        <div className='icons'>
+                            <a href='https://mail.google.com/mail/?view=cm&fs=1&to=ee.guy.42@gmail.com'>
+                            <img src={emaillogo} alt='emaillogo'/>
+                            </a> {" "}
+                            <a href='https://github.com/rif42?tab=repositories'>
+                                <img src={githublogo} alt='githublogo'size='100px'/>
+                            </a> {" "}
+                            <a href='https://github.com/rif42?tab=repositories'>
+                                <img src={resumelogo} alt='githublogo' size='100px'/>
+                            </a>  
+                        </div>                      
                     </div>
                 </div>
             </div>
-            <img id='bgimage' src={bg} alt='githublogo'/> 
-        </div>
-        
+             
+        </div>        
     )
 }

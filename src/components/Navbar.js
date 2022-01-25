@@ -4,6 +4,8 @@ import explogo from '../icons/journal-text.svg';
 import projectslogo from '../icons/boxes.svg';
 import contactslogo from '../icons/at.svg';
 
+
+
 import React from 'react'
 
 export default function Navbar() {
