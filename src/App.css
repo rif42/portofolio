@@ -68,23 +68,23 @@
 }
 
 .profilelogo{
-  min-width:40%;
+  min-width:70px;
   filter:invert();
 }
 
 .explogo{
-  min-width:40%;
+  min-width:70px;
   filter:invert();
 
 }
 
 .projectslogo{
-  min-width:40%;
+  min-width:70px;
   filter:invert();
 
 }
 
 .contactslogo{
-  min-width:40%;
+  min-width:70px;
   filter:invert();
 }

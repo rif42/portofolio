@@ -1,5 +1,3 @@
-
-
 .profile-container
 {
     display : flex;
@@ -38,12 +36,13 @@
     position:fixed;
     top:3vw;
     left:90vw;
-    height:50vw;
+    height:45vw;
     animation: goingin 3s;
     animation-direction: normal;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    size: contain;
 }
 
 @keyframes goingin {
