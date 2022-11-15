@@ -8,33 +8,21 @@ import profilelogo from "./assets/icons/person.svg";
 import explogo from "./assets/icons/journal-text.svg";
 import projectslogo from "./assets/icons/boxes.svg";
 import contactslogo from "./assets/icons/at.svg";
+import Navbar from "./components/Navbar";
 
 function App() {
     return (
         <Router>
-            <div className='App'>
-                <div className='navbar-container'>
-                    <Link to='/'>
-                        <img src={profilelogo} className='profilelogo' alt='profile logo' />
-                    </Link>
-                    <Link to='/WorkExperience'>
-                        <img src={explogo} className='explogo' alt='experience logo' />
-                    </Link>
-                    <Link to='/Projects'>
-                        <img src={projectslogo} className='projectslogo' alt='projects logo' />
-                    </Link>
-                    <Link to='/Contacts'>
-                        <img src={contactslogo} className='contactslogo' alt='contacts logo' />
-                    </Link>
-                </div>
-                {/* <Profile/> */}
-            </div>
+            {/* <div className='container w-full '> */}
+            {/* <Profile /> */}
+            <Navbar />
             <Routes>
                 <Route path='/' element={<Profile />} />
                 <Route path='/WorkExperience' element={<WorkExperience />} />
                 <Route path='/Projects' element={<Projects />} />
                 <Route path='/Contacts' element={<Contacts />} />
             </Routes>
+            {/* </div> */}
         </Router>
     );
 }
